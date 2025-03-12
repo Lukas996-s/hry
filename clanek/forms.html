@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulář</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 1000px;;
+            height: 1000px;
+            margin: auto;
+        }
+
+        .obal{
+            text-align: center;
+        }
+        .obal a{
+            text-decoration: none;
+            color: rgb(0, 153, 255);
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="obal">
+        <header>
+            <h1>Účastníci dovolené</h1>
+        </header>
+
+        <main>
+            <form>
+                <label for="jmeno">Jméno:</label><br>
+                <input type="text" id="jmeno" name="jmeno" placeholder="Martin" required><br><br>
+
+                <label for="prijmeni">Příjmení:</label><br>
+                <input type="text" id="prijmeni" name="prijmeni" placeholder="Novák" required><br><br>
+
+                <label for="pohlavi">Pohlaví:</label><br>
+                <input type="text" id="pohlavi" name="pohlavi" placeholder="muž" required><br><br>
+
+                <label for="mesto">Město:</label><br>
+                <input type="text" id="mesto" name="mesto" placeholder="Štětí" required><br><br>
+
+                <input type="submit" name="přihlásit se" id="login"> <br><br>
+            </form>
+        </main>
+
+        <footer>
+            <a href="ukol16.html">Účastníci</a>
+        </footer>
+
+    </div>
+
+</body>
+</html>
